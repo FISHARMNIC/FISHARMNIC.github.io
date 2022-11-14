@@ -1,0 +1,77 @@
+.center {
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+}
+
+.styled {
+    font-family: 'SourceCodeProRegular';
+   font-weight: normal;
+   font-style: normal;
+
+}
+
+body
+{
+    font-size: 2vw;
+}
+
+
+.orange_host_c {
+    font-size: 4vh;
+    color: rgb(184 138 12);
+}
+
+.orange_c {
+    font-size: 3vh;
+    color: rgb(184 138 12);
+}
+
+.blue_c {
+    color: rgb(0 43 56);
+}
+
+.grey_c {
+    font-size: 3vh;
+    color: grey;
+}
+
+.green_c {
+    color: rgb(113 158 17);
+}
+
+.red_c {
+    color: rgb(165, 42, 42);
+}
+
+.tab { margin-left: 20px; }
+
+body {
+    background-color: rgb(0 43 56);
+}
+
+.collapsible {
+    color: rgb(113 158 17);
+    background-color: rgb(0 43 56);
+    cursor: pointer;
+    width: 100%;
+    padding: 0px;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 3vh
+  }
+  
+  
+  
+  .content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    color:white;
+  }
+
+  .active, .collapsible:hover {
+    color: green;
+  }
